@@ -3787,7 +3787,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.YARHM.Murder Myst
 				local sherName = "-"
 				if murd then murdName = murd.Name end
 				if sher then sherName = sher.Name end
-				local message = string.format([[Murderer: %s | Sheriff: %s | TEOG By OfflinePlayer_01]], murdName, sherName)
+				local message = string.format([[Murderer: %s |Sheriff: %s | TEOG By OfflinePlayer_01]], murdName, sherName)
 				textchannel:SendAsync(message)
 			end
 		end,}
@@ -5076,7 +5076,7 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
 	
 	table.insert(module, {
 		Type = "Button",
-		Args = {"Hide STINK", function(Self)
+		Args = {"Hide TEOG", function(Self)
 			if uis.KeyboardEnabled then
 				ts:Create(script.Parent.Menu.UIScale, TweenInfo.new(0.6, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {
 					Scale = 0
