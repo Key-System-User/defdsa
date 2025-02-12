@@ -3787,7 +3787,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.YARHM.Murder Myst
 				local sherName = "-"
 				if murd then murdName = murd.Name end
 				if sher then sherName = sher.Name end
-				local message = string.format([[Murderer: %s |Sheriff: %s | TEOG By OfflinePlayer_01]], murdName, sherName)
+				local message = string.format([[Murderer: %s |Sheriff: %s ]], murdName, sherName)
 				textchannel:SendAsync(message)
 			end
 		end,}
