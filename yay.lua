@@ -5227,18 +5227,18 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
 
 	-- Customize
 	local usernameColors = {
-		["OfflinePlayer_001"] = Color3.fromHex("#f48fff"),
-		["2077Gojo"] = Color3.fromHex("#f48fff"),
-		["917Dream"] = Color3.fromHex("#f48fff"),
-		["OfflinePlayer_01"] = Color3.fromHex("#0030ff"),
+		["OfflinePlayer_001"] = Color3.fromHex("#00b300"),
+		["2077Gojo"] = Color3.fromHex("#000000"),
+		["917Dream"] = Color3.fromHex("#cc3300"),
+		["OfflinePlayer_01"] = Color3.fromHex("#0066cc"),
 	}
 
 	local specialUsernameColors = {
-		["ItadoruYuuji"] = Color3.fromHex("#ffac33"),
-		["isacemil0"] = Color3.fromHex("#ffac33"),
-		["VOLGAR68"] = Color3.fromHex("#ffac33"),
-		["Nisan4639"] = Color3.fromHex("#ffac33"),
-		["CutGirl12364"] = Color3.fromHex("ffac33"),
+		["ItadoruYuuji"] = Color3.fromHex("#00f289"),
+		["isacemil0"] = Color3.fromHex("#943e4e"),
+		["VOLGAR68"] = Color3.fromHex("#1b1c1b"),
+		["Nisan4639"] = Color3.fromHex("#33ccff"),
+		["CutGirl12364"] = Color3.fromHex("#660066"),
 	}
 
 	local mainText = "TEOG Developer"
